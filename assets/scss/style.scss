@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    main {
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            text-align: center;
+            div:nth-of-type(odd) {
+                margin-top: 32px;
+            }
+            p {
+                font-weight: 700;
+                margin-top: 16px;
+            }
+            button {
+                padding: 5px;
+                margin: 12px;
+                margin-bottom: 100px;
+            }
+        }
+    }
+}
